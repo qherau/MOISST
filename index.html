@@ -243,7 +243,8 @@
 		<center>
 			<tr>
 				<td>
-					Effect of calibration on novel view synthesis: training positions in
+					<b>Effect of calibration on novel view synthesis:</b> 
+					training positions in
 					<span style="color: #ff0000">red</span>, ground truth positions in 
 					<span style="color: #00ff00">green</span>, 
 					reference position in <span style="color: #0000ff">blue</span>. The RGB
@@ -313,7 +314,8 @@
 		<center>
 			<tr>
 				<td>
-					Overview of MOISST optimization framework. First, the model is initialized with rays generated using rough spatial and temporal calibration
+					<b>Overview of MOISST optimization framework: </b>
+					First, the model is initialized with rays generated using rough spatial and temporal calibration
 					priors in addition to the reference frame trajectory. After each optimization step, the rays are regenerated and fed to the NeRF model. We then render
 					RGB images and depth maps which are used along the ground truth ones to compute the losses and propagate the gradients. Gradient descent algorithm
 					is finally used to optimize both NeRF and calibration parameters.
