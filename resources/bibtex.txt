@@ -1,6 +1,17 @@
-@inproceedings{author20XXtitle,
-  title={Please cite me},
-  author={Author, First and Author, Second and Author, Third},
-  booktitle={Conference},
-  year={20XX}
+@misc{https://doi.org/10.48550/arxiv.2303.03056,
+  doi = {10.48550/ARXIV.2303.03056},
+  
+  url = {https://arxiv.org/abs/2303.03056},
+  
+  author = {Herau, Quentin and Piasco, Nathan and Bennehar, Moussab and Roldão, Luis and Tsishkou, Dzmitry and Migniot, Cyrille and Vasseur, Pascal and Demonceaux, Cédric},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {MOISST: Multi-modal Optimization of Implicit Scene for SpatioTemporal calibration},
+  
+  publisher = {arXiv},
+  
+  year = {2023},
+  
+  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
 }
