@@ -238,13 +238,6 @@
 				</td>
 			</tr>
 		</table>
-		<table align=center width=850px>
-			<tr>
-				<td>
-					This was a template originally made for <a href="http://richzhang.github.io/colorization/">Colorful Image Colorization</a>. The code can be found in this <a href="https://github.com/richzhang/webpage-template">repository</a>.
-				</td>
-			</tr>
-		</table>
 	</center>
 
 	<hr>
@@ -276,20 +269,10 @@
 	<br>
 
 	<hr>
-	<center><h1>Talk</h1></center>
+	<center><h1>Supplementary video</h1></center>
 	<p align="center">
 		<iframe width="660" height="395" src="https://www.youtube.com/embed/x1lNEsARsVw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
 	</p>
-
-	<table align=center width=800px>
-		<br>
-		<tr>
-			<center>
-				<span style="font-size:28px"><a href=''>[Slides]</a>
-				</span>
-			</center>
-		</tr>
-	</table>
 	<hr>
 
 	<center><h1>Framework</h1></center>
@@ -315,28 +298,24 @@
 		<center>
 			<tr>
 				<td>
-					Short description if wanted
+					Overview of MOISST optimization framework. First, the model is initialized with rays generated using rough spatial and temporal calibration
+					priors in addition to the reference frame trajectory. After each optimization step, the rays are regenerated and fed to the NeRF model. We then render
+					RGB images and depth maps which are used along the ground truth ones to compute the losses and propagate the gradients. Gradient descent algorithm
+					is finally used to optimize both NeRF and calibration parameters.
 				</td>
 			</tr>
 		</center>
 	</table>
-	<table align=center width=800px>
-		<br>
-		<tr><center>
-			<span style="font-size:28px">&nbsp;<a href='https://github.com/richzhang/webpage-template'>[GitHub]</a>
-			</center>
-		</span>
-	</table>
 	<br>
 	<hr>
 	<table align=center width=450px>
-		<center><h1>Paper</h1></center>
+		<center><h1>Cite</h1></center>
 		<tr>
 			<td><a href=""><img class="layered-paper-big" style="height:175px" src="./resources/paper.png"/></a></td>
 			<td><span style="font-size:14pt">Q. Herau, N. Piasco, M. Bennehar, L. Rold&atilde;o, C. Migniot, P. Vasseur, C. Demonceaux.<br>
 				<b>MOISST: Multi-modal Optimization of Implicit Scene for SpatioTemporal calibration.</b><br>
 				<!-- In Conference, 20XX.<br> -->
-				(hosted on <a href="">ArXiv</a>)<br>
+				(hosted on <a href="https://arxiv.org/abs/2303.03056">ArXiv</a>)<br>
 				<!-- (<a href="./resources/camera-ready.pdf">camera ready</a>)<br> -->
 				<span style="font-size:4pt"><a href=""><br></a>
 				</span>
@@ -355,17 +334,6 @@
 
 	<hr>
 	<br>
-
-	<table align=center width=900px>
-		<tr>
-			<td width=400px>
-				<left>
-					<center><h1>Acknowledgements</h1></center>
-					This template was originally made by <a href="http://web.mit.edu/phillipi/">Phillip Isola</a> and <a href="http://richzhang.github.io/">Richard Zhang</a> for a <a href="http://richzhang.github.io/colorization/">colorful</a> ECCV project; the code can be found <a href="https://github.com/richzhang/webpage-template">here</a>.
-				</left>
-			</td>
-		</tr>
-	</table>
 
 <br>
 </body>
