@@ -238,14 +238,14 @@
 		<center>
 			<tr>
 				<td>
-					<b>Effect of calibration on novel view synthesis:</b> 
+					<p align="justify"><b>Effect of calibration on novel view synthesis:</b> 
 					training positions in
 					<span style="color: #ff0000">red</span>, ground truth positions in 
 					<span style="color: #00ff00">green</span>, 
 					reference position in <span style="color: #0000ff">blue</span>. The RGB
 					images (top) and depth maps (middle) are rendered from an implicit neural
 					3D scene trained from non-calibrated (left) and calibrated with MOISST
-					(right) sensors.
+					(right) sensors.</p>
 				</td>
 			</tr>
 		</center>
@@ -257,7 +257,7 @@
 		<center><h1>Abstract</h1></center>
 		<tr>
 			<td>
-				With the recent advances in autonomous driving
+				<p align="justify">With the recent advances in autonomous driving
 				and the decreasing cost of LiDARs, the use of multi-modal
 				sensor systems is on the rise. However, in order to make use
 				of the information provided by a variety of complimentary
@@ -273,7 +273,7 @@
 				making our solution more scalable than existing calibration
 				solutions. We demonstrate the accuracy and robustness of our
 				method in urban scenes typically encountered in autonomous
-				driving scenarios.
+				driving scenarios.</p>
 			</td>
 		</tr>
 	</table>
@@ -309,11 +309,11 @@
 		<center>
 			<tr>
 				<td>
-					<b>Overview of MOISST optimization framework: </b>
+					<p align="justify"><b>Overview of MOISST optimization framework: </b>
 					First, the model is initialized with rays generated using rough spatial and temporal calibration
 					priors in addition to the reference frame trajectory. After each optimization step, the rays are regenerated and fed to the NeRF model. We then render
 					RGB images and depth maps which are used along the ground truth ones to compute the losses and propagate the gradients. Gradient descent algorithm
-					is finally used to optimize both NeRF and calibration parameters.
+					is finally used to optimize both NeRF and calibration parameters.</p>
 				</td>
 			</tr>
 		</center>
